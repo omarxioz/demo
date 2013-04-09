@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.example"
+        versionCode="10" 
+        version   = "1.0.0">
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>PhoneGap Example</name>
+
+    <description>
+        An example for phonegap build docs. 
+    </description>
+
+    <author href="https://build.phonegap.com" email="support@phonegap.com">
+        Hardeep Shoker 
+    </author>
+
+</widget>
+
+<gap:splash src="img/ldpi.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="img/mdpi.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="img/hdpi.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="img/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+
+<icon src="icons/ldpi.png" gap:platform="android" gap:density="ldpi" />
+<icon src="icons/mdpi.png" gap:platform="android" gap:density="mdpi" />
+<icon src="icons/hdpi.png" gap:platform="android" gap:density="hdpi" />
+<icon src="icons/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
